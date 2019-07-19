@@ -1,0 +1,28 @@
+/* miniprogram/pages/profile/profie.wxss */
+.profile{
+background: #E54847;
+height: 400rpx;
+text-align: center;
+position: relative;
+width: 100%;
+
+}
+
+.profile-img{
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%
+}
+
+.profile-button{
+  
+  background: green;
+}
+
+.profile_user{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,27 @@
+<open-data class="profile_user"
+type="userAvatarUrl"></open-data>
+
+<open-data class="profile_user"
+type="userNickName"></open-data>
+
+<!--
+<button class="profile-button"  open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">
+获取用户信息</button>
+-->
+
+<view style="display:flex;">
+<label>手机号：</label>
+<input placeholder="请输入手机号！" bindinput='getphone'></input>
+</view>
+<view style='display:flex;'>
+<label >密码：</label>
+<input placeholder="请输入密码！" password="true" bindinput='getpsw'></input>
+</view>
+<text bindtap='forgetpsw' >忘记密码</text>
+ <view style="display:flex;margin-top:30px;">
+    <button type='primary' style="width:30%;" bindtap="submit" >登录</button>
+    <button type='primary' style="width:30%" bindtap="register" >注册</button>
+  </view>
+
+<button bindtap="record_click">进入录音界面</button>
+

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/datalog/datalog",
+    "pages/profile/profile",
+    "pages/detail/detail",
+    "pages/profile/MP3/MP3"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "我们的日志",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#4F9EF8",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "首页",
+        "navigationBarTitleText": "日志发布",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "images/index-active.png"
+      },
+      {
+        "pagePath": "pages/datalog/datalog",
+        "text": "往来",
+        "navigationBarTitleText": "我们的日志",
+        "iconPath": "/images/news-list.png",
+        "selectedIconPath": "images/news-list-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/images/profile.png",
+        "selectedIconPath": "images/profile-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
